@@ -1,0 +1,93 @@
+﻿.myGridClass {
+    width: 100%;
+    /*this will be the color of the odd row*/
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+}
+
+    /*data elements*/
+    .myGridClass td {
+        padding: 2px;
+        border: solid 1px #c1c1c1;
+        color: #424242;
+    }
+
+    /*header elements*/
+    .myGridClass th {
+        padding: 4px 2px;
+        color: #fff;
+        background: #424242;
+        border-left: solid 1px #525252;
+        font-size: 0.9em;
+    }
+
+    /*his will be the color of even row*/
+    .myGridClass .myAltRowClass {
+        background: #fcfcfc repeat-x top;
+    }
+
+    /*and finally, we style the pager on the bottom*/
+    .myGridClass .myPagerClass {
+        background: #424242;
+    }
+
+        .myGridClass .myPagerClass table {
+            margin: 5px 0;
+        }
+
+        .myGridClass .myPagerClass td {
+            border-width: 0;
+            padding: 0 6px;
+            border-left: solid 1px #666;
+            font-weight: bold;
+            color: #fff;
+            line-height: 12px;
+        }
+
+        .myGridClass .myPagerClass a {
+            color: #666;
+            text-decoration: none;
+        }
+
+            .myGridClass .myPagerClass a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+.labelstyle {
+    color: #424242;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Courier New';
+    font-style: italic;
+}
+
+.labelstyletitle {
+    color: #424242;
+    font-size: Xx-large;
+    text-align: center;
+    font-family: 'Courier New';
+}
+
+.bordereffect {
+    color: #424242;
+    background-color: Transparent;
+    height: 50px;
+    width: 340px;
+    padding: 10px;
+    border: solid 2px #424242;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Consolas;
+    -moz-border-radius: 0px 0px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+    .bordereffect:hover {
+        color: #424242;
+        border: solid 5px #424242;
+        cursor: pointer;
+    }
+
+    

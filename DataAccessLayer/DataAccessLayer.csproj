@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="DepartmentModel.cs" />
     <Compile Include="EmployeeModel.cs" />
+    <Compile Include="Emp_ActModel.cs" />
     <Compile Include="Model.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -59,6 +60,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model.edmx</DependentUpon>
     </Compile>
+    <Compile Include="ProjectModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

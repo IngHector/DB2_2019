@@ -66,26 +66,43 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Department\Default.aspx" />
-    <Content Include="Employee\default.aspx" />
+    <Content Include="Ejercicios1\Default.aspx" />
+    <Content Include="Ejercicios2\Default.aspx" />
+    <Content Include="Ejercicios3\Default.aspx" />
+    <Content Include="Ejercicios4\Default.aspx" />
+    <Content Include="gridView.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Department\Default.aspx.cs">
+    <Compile Include="Ejercicios1\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Department\Default.aspx.designer.cs">
+    <Compile Include="Ejercicios1\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Employee\default.aspx.cs">
-      <DependentUpon>default.aspx</DependentUpon>
+    <Compile Include="Ejercicios2\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Employee\default.aspx.designer.cs">
-      <DependentUpon>default.aspx</DependentUpon>
+    <Compile Include="Ejercicios2\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios3\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ejercicios3\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios4\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ejercicios4\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
